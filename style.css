@@ -1,0 +1,40 @@
+body{
+    background-color: pink;
+    box-sizing: border-box;
+}
+.side-nav {
+    background-color: #a0e0e0;
+    width: 200px;
+    height: 100vh; 
+    position: fixed; 
+    left: 0;
+    top: 0;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+  }
+
+  .main-content {
+    margin-left: 210px; 
+    padding: 20px;
+  }
+
+  .fixed-height-container {
+    height: 150px; 
+    overflow-x: auto;
+    overflow-y: auto; 
+    white-space: nowrap;
+    background-color: #f0c878;
+  }
+  .second-box{
+    background-color: green;
+    height: 100px;
+  }
+
+
+  .lorel {
+    height: 200px; 
+    overflow-y: auto; 
+    background-color: #e0e57d;
+    padding: 10px;
+  }
